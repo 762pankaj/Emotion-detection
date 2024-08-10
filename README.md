@@ -42,16 +42,15 @@ To set up and run the application locally, follow the instructions provided in t
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/emotion-detection-app.git
-Navigate to the project directory:
-bash
-Copy code
-cd emotion-detection-app
-Install the required dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Run the application:
-bash
-Copy code
-python server.py
-
+   
+2. Navigate to the project directory:
+   ```bash
+   cd emotion-detection-app
+   
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   
+4. Run the application:
+   ```bash
+   python server.py
