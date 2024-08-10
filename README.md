@@ -38,7 +38,7 @@ This AI-based web application performs analytics on customer feedback for their 
 To set up and run the application locally, follow the instructions provided in the [Installation](#installation) section.
 
 ###Install the required dependencies:
-1 ```bash
+1. ```bash
    pip install -r requirements.txt
 
 ### Installation
