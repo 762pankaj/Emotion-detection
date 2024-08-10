@@ -54,7 +54,7 @@ To set up and run the application locally, follow the instructions provided in t
 3. Run a python shell for custom checking in terminal:
     ```bash
     cd EmotionDetection
-    ```bash
+
 4. from emotion_detection import emotion_detector
     ```bash
     emotion_detector("I love what I am doing")
