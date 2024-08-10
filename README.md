@@ -36,21 +36,28 @@ This AI-based web application performs analytics on customer feedback for their 
 ### Getting Started
 
 To set up and run the application locally, follow the instructions provided in the [Installation](#installation) section.
+###Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
 
 ### Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/emotion-detection-app.git
+   git clone <repo-link>
    
 2. Navigate to the project directory:
    ```bash
-   cd emotion-detection-app
+   cd Emotion-detection
    
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   
-4. Run the application:
+3. Run the application on website UI:
    ```bash
    python server.py
+   
+4. Run a python shell for custom checking in terminal:
+    ```bash
+    cd EmotionDetection
+    ```bash
+   from emotion_detection import emotion_detector
+    ```bash
+    emotion_detector("I love what I am doing")
