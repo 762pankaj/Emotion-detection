@@ -51,14 +51,14 @@ To set up and run the application locally, follow the instructions provided in t
    ```bash
    cd Emotion-detection
    
-3. Run the application on website UI:
-   ```bash
-   python server.py
-   
-4. Run a python shell for custom checking in terminal:
+3. Run a python shell for custom checking in terminal:
     ```bash
     cd EmotionDetection
     ```bash
-   from emotion_detection import emotion_detector
+4. from emotion_detection import emotion_detector
     ```bash
     emotion_detector("I love what I am doing")
+
+5. Run the application on website UI (make sure on correct path):
+   ```bash
+   python server.py
